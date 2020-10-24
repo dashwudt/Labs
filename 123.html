@@ -1,0 +1,153 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Первая лабораторная</title>
+		<style>
+			a:link    {color:red; text-decoration:none}
+            		a:visited {color:pink; text-decoration:none}
+            		a:hover   {color:red; text-decoration:underline}
+            		a:active  {color:yellow; text-decoration:underline}
+			a{
+				font-size: 1.3em;
+			}
+			body{
+				margin: 0;
+			}		
+			header{
+				background: #007800;
+				color: white;
+				font-size: 1.2em;
+				font-family:"Courier";
+				font-weight: normal;
+				padding: 11px 0;
+				margin: 0;				
+			}
+			.bigblue{
+				width: 700px; 
+                		height:887px;
+				background: #0000FF;	
+				margin: 0 600px;
+						
+			}
+			h1{
+				color: white;
+				font-family:"Arial";
+				font-size: 3em;
+				padding: 20px 40px;	
+				margin: 0;
+			}
+			.fig {
+				float:left;
+				border: 5px;
+				margin: 0px 40px;
+				width: 120px; 
+				height:120px;
+				border-radius: 20px 0;	
+				border-color: white;
+				border-style: solid;	
+			}
+			.tex{
+				color: white;
+				font-family:"Arial";
+				margin: 0 20px 20px 40px;
+				font-size: 1.13em;
+				line-height: 1.4;
+			}
+			h2{
+				font-family:"Arial";
+				color:white;
+				margin: 5px 0 -30px 40px;
+				font-size: 2.1em;
+			}
+			ul{
+				color: white;
+				padding:0 0 0 80px;
+				font-size: 1.3em;
+				line-height: 1;
+			}
+			h3{
+				color:white;
+				font-size: 1.5em;
+				font-family:"Arial";
+				margin: 0 0 0 40px;
+			}
+		        td{
+                		width: 60px; 
+                		height:60px; 
+                		border: solid 1px silver; 
+				text-align:center;
+				vertical-align:bottom;
+				color:white;
+				font-size:1.3em;
+            		}
+			table{
+				margin:0 50px 0 0;
+			}
+			p{
+				margin:30px 30px 30px 40px;
+				color:white;
+				font-family:"Arial";
+				font-size:1.3em;
+			}
+			footer{
+				background: #007800;
+				color: white;
+				font-size: 1.2em;
+				font-family:"Courier";
+				font-weight: normal;
+				padding: 11px 0;
+				margin: 0;				
+			}
+			.im{
+				float:right;
+				margin:0 40px 40px 40px;
+			}
+			
+		</style>
+	</head>
+	<body>
+			
+		<center>			
+		<header>Hello, Header!</header>
+		</center>
+		<div class="bigblue">
+			<h1>Hello, content!</h1>
+			<div class="fig"></div>
+			<div class="tex">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</div>
+			<center>
+			<a link rel="stylesheet" type="text/css" href="index.css">www.csd.tsu.ru</a>
+			</center>
+			<h2><span style="color:red;">Here</span> is the list:</h2>
+			<ul>
+		            	<li><span style = "padding: 0;">Value 1</span></li>
+            			<li><span style = "color:deepskyblue;letter-spacing:3px;">Value 2</span></li>
+            			<li>Value 3</li>
+        		</ul>
+			<table align="right">
+            			<tr>
+                			<td rowspan="2" style="background-color:green;">1</td>
+                			<td>2</td>
+                			<td>3</td>
+            			</tr>
+            			<tr>
+                			<td>4</td>
+                			<td>5</td>
+            			</tr>
+            			<tr>
+                			<td>6</td>
+                			<td colspan="2" style="background-color:red;">7</td>
+            			</tr>
+        		</table>
+			<h3>Here are some visual styles:</h3>
+			<p><i>italic</i></p>
+			<p><b>Bold</b></p>
+			<p><u>UnderLined</u></p>
+			<img src="images.png" alt="cool" class="im"/>
+			<p><s>Line through</s></p>
+		</div>
+		<center>
+		<footer>Hello, Footer!</footer>
+
+    	</body>
+</html>
