@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width:800px;
+    margin:0 auto;
+    border:1px solid black;
+}
+
+main .tabs{
+    display:flex;
+    justify-content: space-between;
+}
+
+main .tabs .tab_buton{
+    font-size:24px;
+    text-align: center;
+    width:100%;
+    height: 50px;
+    background:red;
+    border:2px solid black;
+}
+
+main .tab{
+    display:flex;
+    height: 300px;
+    position: relative;
+}
+
+main .tab .left{
+    background:blue;
+    position: absolute;
+    width:95%;
+    left:0;
+}
+main .tab .right{
+    background:green;
+    position: absolute;
+    width:95%;
+    right:0;
+}
+.img{
+    width:50%;
+    height: 300px;
+    margin:15px;
+}
+.hide img{
+    visibility: hidden;;
+}
+.center{
+    width:50% !important;
+}
+.center img{
+    object-fit: cover;
+    width:92%;
+}
