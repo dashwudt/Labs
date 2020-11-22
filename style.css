@@ -1,0 +1,11 @@
+*{
+    font-size:20px;
+}
+.data_row{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+}
+.form{
+    margin-top:40px;
+}
