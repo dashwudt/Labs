@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            line-height: 1.5em;
+        }
+        
+        header{
+            width:100%;
+            background:rgb(234,234,234);
+            height: 100px;
+            
+        }
+        main{
+            display:flex;
+        }
+        .left_column{
+            min-width:200px;
+            max-width:200px;
+            background:rgb(200,252,152);
+            height: auto;
+            padding:5px 15px
+        }
+        .content{padding:10px;}
+        .red{color:red;}
+        footer{
+            width:100%;
+            background:black;
+            text-align: center;
+            padding:5px 0;
+        }
+        footer a{
+            color:gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Liquid Layout #2.1- (Fixed-Fluid)</h1>
+    </header>
+    <main>
+        <div class="left_column">
+            <b>Left Column:</b><em class="red">200px</em>
+            <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sint nihil quae minima nam cumque ea, repudiandae delectus nulla? Molestias?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident iure dolores facilis, placeat laborum, perferendis porro obcaecati accusamus, quibusdam rerum numquam. Molestias qui quia omnis unde cumque, ipsa inventore deleniti, architecto laborum quos, repellendus ratione ex! Molestiae temporibus, ratione sequi fugit ab voluptatibus dolore quaerat?
+            </span>
+        </div>
+
+        <div class="content">
+            <b>Content Column:</b><em class="red">Fluid</em>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, eius repellendus nesciunt corporis, vel non recusandae, dolore qui rem obcaecati repudiandae laboriosam facilis quia deserunt praesentium optio nobis ad fugiat minima perferendis maiores dignissimos! Inventore possimus placeat ipsa ipsam voluptatum laboriosam iste eveniet cupiditate deleniti aperiam sapiente, sint accusamus recusandae delectus vero nostrum tempora quaerat esse debitis reprehenderit voluptas blanditiis alias. Esse aliquam, optio repudiandae modi, culpa incidunt consectetur necessitatibus sed, ex eaque hic commodi aspernatur eius? Consectetur, sunt natus.</span>
+        </div> 
+    </main>
+    <footer><a href="http://www.csd.tsu.ru/">www.csd.tsu.ru</a></footer>  
+</body>
+</html>

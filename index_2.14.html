@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            margin:20px;
+        }
+        .block{
+            background:rgb(0,255,255);
+            display:flex;
+            border:1px solid green;
+        }
+        .left{
+            width:20%;
+        }
+        .left div{
+            background:rgb(255,228,196);
+            width:100%;
+            min-width:150px;
+        }
+        .left div ul{
+            padding:20px;
+            margin-left:20px;
+        }
+        .right{
+            width:80%;
+            min-width:600px;
+            background:grey;
+        }
+        @media screen and (max-width: 600px){
+            .block{
+                display:block;
+            }
+            .left{
+                width:100%;
+                height:auto;
+            }
+            .left div{
+                width:100%;
+                height: 30px;
+                margin:20px 0;
+
+                background:rgb(255,228,196)
+            }
+            .left div ul{
+                display:flex;
+                width:100%;
+            }
+            .left div ul li{
+                list-style-type: none;
+                padding-right:10px;
+                margin-top:-16px;
+                
+            }
+        
+            .right{
+                width:100%;
+                min-width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="block">
+        <div class="left">
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Hours</li>
+                    <li>Direction</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nihil? Id temporibus dolorum, sint voluptatibus placeat eum tenetur. Amet ex alias laudantium quis deleniti nesciunt, vitae natus harum quae id beatae quia voluptates eius cupiditate voluptas exercitationem repudiandae qui, eaque autem sapiente maiores ipsum soluta hic. Similique doloribus, excepturi inventore, tenetur nisi eveniet provident non voluptate hic iure vero nemo perferendis, quaerat necessitatibus architecto. Ratione sit neque temporibus distinctio, sed placeat cum animi reprehenderit earum atque explicabo quae, facere quasi consequuntur nesciunt odit ipsum voluptas quo! Delectus laudantium facere quo vel eum harum veniam voluptatibus ducimus ratione iusto autem dignissimos, aliquam, saepe sint quos doloribus facilis distinctio tempore. Dignissimos in vero asperiores dicta consequuntur mollitia. Ut vitae voluptatibus, aliquam facere ducimus quod, eligendi possimus perspiciatis minima suscipit minus esse, voluptas repellendus modi dolorem voluptate exercitationem. A, adipisci quod. Harum mollitia voluptates, nostrum tempora amet maxime nemo sed enim rem architecto, saepe, in ipsa quasi ducimus ut quisquam omnis. Accusamus quos ex voluptas assumenda fuga ut autem similique necessitatibus! Tempora, illo, consectetur aspernatur ratione reiciendis repellendus vitae tenetur eveniet, doloremque impedit cumque ut! Illum nemo eveniet quaerat fugiat commodi aspernatur officia eligendi molestiae autem. Repudiandae unde aspernatur autem molestiae fuga, excepturi praesentium, dolor pariatur deserunt sequi quis officiis, inventore quibusdam repellendus nesciunt illum reprehenderit. Odio aspernatur accusantium tempora doloremque esse ipsa qui excepturi dolorum atque dolorem, unde error perferendis quis laboriosam? Quibusdam corporis omnis quis. A atque, soluta ab ut dolore obcaecati laborum facilis vel, neque, dolores esse quidem. Enim voluptate rem molestias voluptatibus quos id maxime repellendus, dolorem impedit eveniet iusto sed quis ipsam accusamus quisquam odit aspernatur inventore atque nostrum facere quia ex. Vel amet consequatur neque officiis laboriosam. Sequi hic aperiam magnam impedit corporis nesciunt reiciendis nisi fuga minima quod cumque quia unde accusantium, tempora necessitatibus culpa tempore.
+        </div>
+    </div>
+
+</body>
+</html>

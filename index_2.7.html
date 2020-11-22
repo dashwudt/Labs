@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            color:white;
+        }
+        .static{
+            width:200px;
+            height: 150px;
+            background:rgb(138,43,226)
+        }
+        .relative1{
+            width:200px;
+            height: 150px;
+            background:rgb(139,0,0);
+            position: relative;
+        }
+        .relative2{
+            width:200px;
+            height: 150px;
+            background:rgb(205,133,63);
+            position: relative;
+            left:40px;
+            top:-40px;
+        }
+        .relative3{
+            width:600px;
+            height: 320px;
+            background:rgb(205,92,92);
+            position: relative;
+        }
+        .absolute{
+            width:250px;
+            height: 170px;
+            background:rgb(68,0,118);
+            position: absolute;
+            right:0;
+            top:130px;
+        }
+        .fixed{
+            background:rgb(34,138,34);
+            width:90px;
+            height: 120px;
+            position: fixed;
+            right:0;
+            bottom:0;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="static">its static div!</div>
+    <div class="relative1"> its relative div!</div>
+    <div class="relative2">its relative div!</div>
+    <div class="relative3">
+        its relative div!
+        <div class="absolute">im absolute div in relative parent</div>
+    </div>
+
+    <div class="fixed">i am fixed div!</div>
+   
+</body>
+</html>
