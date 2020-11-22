@@ -1,0 +1,110 @@
+*::selection
+		{
+			color: white;
+			background-color: green;
+		}
+		header
+		{
+			background-color: green;
+			text-align: center;
+			color: white;
+			font-family: Helvetica;
+			font-size: 30px;
+			padding: 10px;
+		}
+		main
+		{
+			width: 540px;
+			font-family: Helvetica;
+			text-align: justify;
+			position: absolute;
+			top: 90px;
+			left: 41%;
+			line-height: 21px;
+		}
+		main::first-letter 
+			{
+				color: red;
+				font-size: 25px;
+			}
+		footer
+		{
+			color: white;
+			font-family: Helvetica;
+			font-size: 18px;
+			text-align: center;
+			background-color: black;
+			position: absolute;
+			bottom: 0;
+			width: 98.6%;
+			padding: 5px;
+		}
+		nav
+		{
+			font-family: Helvetica;
+			background-color: red;
+			width: 200px;
+			height: 90%;
+			position: absolute;
+			left: 28.3%;
+			color: white;
+			text-align: left;
+			padding-top: 15px;
+			padding-right: 10px;
+			font-size: 1em;
+			text-decoration: underline;
+		}
+		p
+		{
+			position: relative;
+			left: 55px;
+			padding: 2px;
+			width: 120px;
+		}
+		p:hover
+		{
+			background-color: green;
+		}
+		
+		@media (max-width: 800px)
+		{
+			nav
+			{
+				left: 9px;
+				right: 80%;
+				width: 245px;
+				padding-top: 20px;
+				height: 850px;
+			}
+			html
+			{
+				font-size: 19.5px;
+			}
+			main
+			{
+				left: 0px;
+				margin-left: 300px;
+				width: 440px;
+				top: 100px;
+				line-height: 25px;
+			}
+			footer
+			{
+				font-size: 22px;
+				height: 30px;
+				top: 100%;
+			}
+			p
+			{
+				width: 146px;
+				padding: 2px;
+				padding-top: 0px;
+				position: relative;
+				left: 45px;
+			}
+			header
+			{
+				height: 42px;
+				width: 100%;
+			}
+		}
